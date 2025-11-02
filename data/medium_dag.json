@@ -1,0 +1,139 @@
+[
+  {
+    "id": "T1",
+    "name": "Street Cleaning #1",
+    "duration": 5,
+    "dependencies": []
+  },
+  {
+    "id": "T2",
+    "name": "Traffic Light Repair #1",
+    "duration": 7,
+    "dependencies": []
+  },
+  {
+    "id": "T3",
+    "name": "Camera Installation #1",
+    "duration": 8,
+    "dependencies": [
+      "T2"
+    ]
+  },
+  {
+    "id": "T4",
+    "name": "Sensor Calibration #1",
+    "duration": 3,
+    "dependencies": []
+  },
+  {
+    "id": "T5",
+    "name": "Network Config #1",
+    "duration": 7,
+    "dependencies": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ]
+  },
+  {
+    "id": "T6",
+    "name": "Data Analytics #1",
+    "duration": 5,
+    "dependencies": [
+      "T1",
+      "T3"
+    ]
+  },
+  {
+    "id": "T7",
+    "name": "System Test #1",
+    "duration": 3,
+    "dependencies": [
+      "T1",
+      "T3",
+      "T4"
+    ]
+  },
+  {
+    "id": "T8",
+    "name": "Bug Fixes #1",
+    "duration": 2,
+    "dependencies": []
+  },
+  {
+    "id": "T9",
+    "name": "Security Audit #1",
+    "duration": 8,
+    "dependencies": [
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T8"
+    ]
+  },
+  {
+    "id": "T10",
+    "name": "Performance Tuning #1",
+    "duration": 6,
+    "dependencies": [
+      "T2",
+      "T3",
+      "T8",
+      "T9"
+    ]
+  },
+  {
+    "id": "T11",
+    "name": "Database Migration #1",
+    "duration": 7,
+    "dependencies": [
+      "T3",
+      "T7",
+      "T10"
+    ]
+  },
+  {
+    "id": "T12",
+    "name": "UI Update #1",
+    "duration": 5,
+    "dependencies": [
+      "T2",
+      "T3",
+      "T6",
+      "T7",
+      "T9"
+    ]
+  },
+  {
+    "id": "T13",
+    "name": "API Integration #1",
+    "duration": 8,
+    "dependencies": [
+      "T2",
+      "T6",
+      "T8"
+    ]
+  },
+  {
+    "id": "T14",
+    "name": "Load Testing #1",
+    "duration": 8,
+    "dependencies": [
+      "T2",
+      "T4",
+      "T5",
+      "T6"
+    ]
+  },
+  {
+    "id": "T15",
+    "name": "Documentation #1",
+    "duration": 8,
+    "dependencies": [
+      "T4",
+      "T9"
+    ]
+  }
+]

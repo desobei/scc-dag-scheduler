@@ -1,0 +1,97 @@
+[
+  {
+    "id": "T1",
+    "name": "Street Cleaning Zone A",
+    "duration": 5,
+    "dependencies": []
+  },
+  {
+    "id": "T2",
+    "name": "Street Cleaning Zone B",
+    "duration": 4,
+    "dependencies": []
+  },
+  {
+    "id": "T3",
+    "name": "Repair Traffic Light 1",
+    "duration": 6,
+    "dependencies": [
+      "T1"
+    ]
+  },
+  {
+    "id": "T4",
+    "name": "Repair Traffic Light 2",
+    "duration": 5,
+    "dependencies": [
+      "T2"
+    ]
+  },
+  {
+    "id": "T5",
+    "name": "Camera Installation",
+    "duration": 8,
+    "dependencies": [
+      "T3",
+      "T4"
+    ]
+  },
+  {
+    "id": "T6",
+    "name": "Sensor Calibration",
+    "duration": 3,
+    "dependencies": [
+      "T5"
+    ]
+  },
+  {
+    "id": "T7",
+    "name": "Data Analytics Setup",
+    "duration": 7,
+    "dependencies": [
+      "T6"
+    ]
+  },
+  {
+    "id": "T8",
+    "name": "Network Configuration",
+    "duration": 4,
+    "dependencies": [
+      "T5"
+    ]
+  },
+  {
+    "id": "T9",
+    "name": "System Test Phase 1",
+    "duration": 6,
+    "dependencies": [
+      "T7",
+      "T8"
+    ]
+  },
+  {
+    "id": "T10",
+    "name": "System Test Phase 2",
+    "duration": 5,
+    "dependencies": [
+      "T9"
+    ]
+  },
+  {
+    "id": "T11",
+    "name": "Bug Fixes",
+    "duration": 4,
+    "dependencies": [
+      "T10"
+    ]
+  },
+  {
+    "id": "T12",
+    "name": "Regression Testing",
+    "duration": 3,
+    "dependencies": [
+      "T11",
+      "T9"
+    ]
+  }
+]

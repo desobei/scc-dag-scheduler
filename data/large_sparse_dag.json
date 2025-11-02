@@ -1,0 +1,217 @@
+[
+  {
+    "id": "T1",
+    "name": "Street Cleaning #1",
+    "duration": 4,
+    "dependencies": []
+  },
+  {
+    "id": "T2",
+    "name": "Traffic Light Repair #1",
+    "duration": 7,
+    "dependencies": []
+  },
+  {
+    "id": "T3",
+    "name": "Camera Installation #1",
+    "duration": 3,
+    "dependencies": []
+  },
+  {
+    "id": "T4",
+    "name": "Sensor Calibration #1",
+    "duration": 7,
+    "dependencies": [
+      "T2"
+    ]
+  },
+  {
+    "id": "T5",
+    "name": "Network Config #1",
+    "duration": 7,
+    "dependencies": [
+      "T3",
+      "T4"
+    ]
+  },
+  {
+    "id": "T6",
+    "name": "Data Analytics #1",
+    "duration": 3,
+    "dependencies": [
+      "T2"
+    ]
+  },
+  {
+    "id": "T7",
+    "name": "System Test #1",
+    "duration": 6,
+    "dependencies": [
+      "T4"
+    ]
+  },
+  {
+    "id": "T8",
+    "name": "Bug Fixes #1",
+    "duration": 7,
+    "dependencies": [
+      "T1",
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "id": "T9",
+    "name": "Security Audit #1",
+    "duration": 2,
+    "dependencies": [
+      "T5"
+    ]
+  },
+  {
+    "id": "T10",
+    "name": "Performance Tuning #1",
+    "duration": 9,
+    "dependencies": [
+      "T1",
+      "T5"
+    ]
+  },
+  {
+    "id": "T11",
+    "name": "Database Migration #1",
+    "duration": 7,
+    "dependencies": [
+      "T1",
+      "T6"
+    ]
+  },
+  {
+    "id": "T12",
+    "name": "UI Update #1",
+    "duration": 2,
+    "dependencies": [
+      "T2",
+      "T4"
+    ]
+  },
+  {
+    "id": "T13",
+    "name": "API Integration #1",
+    "duration": 6,
+    "dependencies": [
+      "T2",
+      "T3",
+      "T4",
+      "T5"
+    ]
+  },
+  {
+    "id": "T14",
+    "name": "Load Testing #1",
+    "duration": 4,
+    "dependencies": [
+      "T2",
+      "T4",
+      "T6"
+    ]
+  },
+  {
+    "id": "T15",
+    "name": "Documentation #1",
+    "duration": 9,
+    "dependencies": [
+      "T1",
+      "T3",
+      "T6"
+    ]
+  },
+  {
+    "id": "T16",
+    "name": "Code Review #1",
+    "duration": 5,
+    "dependencies": [
+      "T4"
+    ]
+  },
+  {
+    "id": "T17",
+    "name": "Deployment #1",
+    "duration": 8,
+    "dependencies": [
+      "T2",
+      "T3",
+      "T4",
+      "T5"
+    ]
+  },
+  {
+    "id": "T18",
+    "name": "Monitoring Setup #1",
+    "duration": 8,
+    "dependencies": [
+      "T1",
+      "T2",
+      "T4",
+      "T6"
+    ]
+  },
+  {
+    "id": "T19",
+    "name": "Street Cleaning #2",
+    "duration": 2,
+    "dependencies": []
+  },
+  {
+    "id": "T20",
+    "name": "Traffic Light Repair #2",
+    "duration": 9,
+    "dependencies": [
+      "T1"
+    ]
+  },
+  {
+    "id": "T21",
+    "name": "Camera Installation #2",
+    "duration": 6,
+    "dependencies": [
+      "T1",
+      "T4",
+      "T5"
+    ]
+  },
+  {
+    "id": "T22",
+    "name": "Sensor Calibration #2",
+    "duration": 6,
+    "dependencies": []
+  },
+  {
+    "id": "T23",
+    "name": "Network Config #2",
+    "duration": 7,
+    "dependencies": [
+      "T2",
+      "T5"
+    ]
+  },
+  {
+    "id": "T24",
+    "name": "Data Analytics #2",
+    "duration": 4,
+    "dependencies": [
+      "T1",
+      "T3",
+      "T5"
+    ]
+  },
+  {
+    "id": "T25",
+    "name": "System Test #2",
+    "duration": 6,
+    "dependencies": [
+      "T2",
+      "T3"
+    ]
+  }
+]

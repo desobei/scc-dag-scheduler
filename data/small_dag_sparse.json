@@ -1,0 +1,45 @@
+[
+  {
+    "id": "T1",
+    "name": "Street Cleaning #1",
+    "duration": 7,
+    "dependencies": []
+  },
+  {
+    "id": "T2",
+    "name": "Traffic Light Repair #1",
+    "duration": 2,
+    "dependencies": [
+      "T1"
+    ]
+  },
+  {
+    "id": "T3",
+    "name": "Camera Installation #1",
+    "duration": 7,
+    "dependencies": []
+  },
+  {
+    "id": "T4",
+    "name": "Sensor Calibration #1",
+    "duration": 2,
+    "dependencies": []
+  },
+  {
+    "id": "T5",
+    "name": "Network Config #1",
+    "duration": 4,
+    "dependencies": [
+      "T1",
+      "T3"
+    ]
+  },
+  {
+    "id": "T6",
+    "name": "Data Analytics #1",
+    "duration": 9,
+    "dependencies": [
+      "T1"
+    ]
+  }
+]

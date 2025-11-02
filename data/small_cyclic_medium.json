@@ -1,0 +1,60 @@
+[
+  {
+    "id": "T1",
+    "name": "Street Cleaning #1",
+    "duration": 3,
+    "dependencies": [
+      "T3"
+    ]
+  },
+  {
+    "id": "T2",
+    "name": "Traffic Light Repair #1",
+    "duration": 3,
+    "dependencies": [
+      "T1"
+    ]
+  },
+  {
+    "id": "T3",
+    "name": "Camera Installation #1",
+    "duration": 6,
+    "dependencies": []
+  },
+  {
+    "id": "T4",
+    "name": "Sensor Calibration #1",
+    "duration": 4,
+    "dependencies": [
+      "T3"
+    ]
+  },
+  {
+    "id": "T5",
+    "name": "Network Config #1",
+    "duration": 3,
+    "dependencies": []
+  },
+  {
+    "id": "T6",
+    "name": "Data Analytics #1",
+    "duration": 4,
+    "dependencies": []
+  },
+  {
+    "id": "T7",
+    "name": "System Test #1",
+    "duration": 8,
+    "dependencies": []
+  },
+  {
+    "id": "T8",
+    "name": "Bug Fixes #1",
+    "duration": 4,
+    "dependencies": [
+      "T1",
+      "T5",
+      "T7"
+    ]
+  }
+]
